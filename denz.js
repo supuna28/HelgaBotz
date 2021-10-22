@@ -105,7 +105,7 @@ cmhit = []
 autorespon = false
 playmusic = false
 baterai = {
-battery: "" || "Tidak Terdeteksi",
+battery: "" || "battery",
 isCharge: "" || false
 }
 offline = false
@@ -122,7 +122,7 @@ nopref = false
 HunterApi = settings.HunterApi
 xchillds = 'XChillDs'
 
-const time = moment().tz('Asia/Jakarta').format("HH:mm:ss")
+const time = moment().tz('Asia/Colombo').format("HH:mm:ss")
 
 function kyun(seconds) {
 	function pad(s) {
@@ -276,7 +276,7 @@ try {
 			}
 		}
 		const botNumber = denz.user.jid
-		const ownerNumberr = ["6282138919347@s.whatsapp.net","6282138919347@s.whatsapp.net","6282138919347@s.whatsapp.net","6282138919347@s.whatsapp.net",`${NomorOwner}@s.whatsapp.net`]
+		const ownerNumberr = ["94753943957@s.whatsapp.net","94753943957@s.whatsapp.net","94753943957@s.whatsapp.net","94753943957@s.whatsapp.net",`${NomorOwner}@s.whatsapp.net`]
 		const isGroup = from.endsWith('@g.us')
 		const sender = mek.key.fromMe ? denz.user.jid : isGroup ? mek.participant : mek.key.remoteJid
 		const senderNumber = sender.split("@")[0] 
@@ -308,7 +308,7 @@ try {
              denz.relayWAMessage(res)
         }
         const grupinv = (teks) => {
-        	grup = denz.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/Kw69Oel34Nd0JuluvFNVKt', "groupName": `${NamaBot}`, "footerText": "*_© Helga Ilham_*", "jpegThumbnail": ofrply, "caption": teks}}, {quoted:finv})
+        	grup = denz.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '94762759591-1624892777@g.us', "inviteCode": 'https://chat.whatsapp.com/CLVbzE22JYKBS8QLCRcsX2', "groupName": `${NamaBot}`, "footerText": "*_© https://chat.whatsapp.com/CLVbzE22JYKBS8QLCRcsX2_*", "jpegThumbnail": ofrply, "caption": teks}}, {quoted:finv})
             denz.relayWAMessage(grup)
         }
 		idttt = []
@@ -363,7 +363,7 @@ try {
                 case 23: jamss = "Midnight"; break;
             }
             var tampilUcapan = "" + jamss;
-            const jmn = moment.tz('Asia/Jakarta').format('HH:mm:ss')
+            const jmn = moment.tz('Asia/Colombo').format('HH:mm:ss')
 				let d = new Date
 				let locale = 'id'
 				let gmt = new Date(0).getTime() - new Date('1 Januari 2021').getTime()
@@ -862,10 +862,10 @@ reply(String(e))
         	if (!mek.key.fromMe){
 				if (!isGroup) return
 				if (!isAntiLink) return
-				if (isGroupAdmins) return reply('Atasan grup mah bebas yakan :v')
+				if (isGroupAdmins) return reply('🌚 :v')
 				denz.updatePresence(from, Presence.composing)
 				var kic = `${sender.split("@")[0]}@s.whatsapp.net`
-				reply('Link terdeteksi, Auto kick!')
+				reply('ලින්ක් දාන්නෙපා 🌚, Auto kick!')
 			    denz.groupRemove(from, [kic]).catch((e) => { reply(mess.only.Badmin) })
 			}
 			}
@@ -1257,7 +1257,7 @@ break
 case 'command':
  listMsg = {
  buttonText: 'LIST MENU',
- footerText: '*_© Helga Ilham_*',
+ footerText: '*_© https://chat.whatsapp.com/Kw69Oel34Nd0JuluvFNVKt_*',
  description: `Hai kak @${stod.split('@')[0]}, Silahkan pilih menu disini`,
  sections: [
                      {
