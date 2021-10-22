@@ -983,13 +983,11 @@ case 'allmenu':
 			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
 menu = `${uwu}
 ╭─❒ 「 Bot Info 」 ❒
-│◦➛Creator : @${dtod.split('@')[0]}
 │◦➛Recode : @${ptod.split('@')[0]}
 │◦➛Battery : ${baterai.battery}
 │◦➛Mode : ${publik ? 'Public' : 'Self'}
 │◦➛Total Hit : ${cmhit.length}
 │◦➛Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}
-│◦➛Nomor Owner : @${otod.split('@')[0]}
 │◦➛Auto Composing : ${settings.autocomposing}
 └❏Auto Recording : ${settings.autorecording}
 
@@ -997,21 +995,6 @@ menu = `${uwu}
 │◦➛Status : ${isOwner ? 'Owner' : 'User'}
 │◦➛Nama : ${pushname}
 │◦➛Bio : ${stst}
-│◦➛Nomor : @${stod.split('@')[0]}
-│◦➛Info Nomor : ${num.data.countrycode} - ${num.data.carrier.type} - ${num.data.carrier.name}
-└❏
-
-┌❏ TO DAY
-│◦➛${tampilUcapan}
-│◦➛Jam : ${jmn}
-│◦➛Hari : ${week} ${weton}
-└❏Tanggal : ${calender}
-
-┌❏ INDONESIA TIME
-│◦➛Wib : ${timeWib}
-│◦➛Wita : ${timeWita}
-└❏Wit : ${timeWit}  
-
 ╭─❒ COMMAND
 │
 ├─❒ OWNER
@@ -1264,7 +1247,7 @@ case 'command':
                       "title": `${jmn} - ${week} ${weton} - ${calender}`,
  rows: [
                           {
-                              "title": "Script",
+                              "title": "group",
                               "rowId": ""
                            },
                            {
@@ -2081,8 +2064,8 @@ denz.sendMessage(memekkkk, 'Wkwkwk', MessageType.text)
 break
 				case 'script':
 		case 'sc':
-		case 'sourcecode':
-		denz.sendMessage(from, { text: "https://github.com/HelgaIlham\n\nhttps://github.com/HelgaIlham", matchedText: 'https://github.com/HelgaIlham', description: "", title: "don't click here !!!", jpegThumbnail: ofrply }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
+		case 'bot kingdom':
+		denz.sendMessage(from, { text: "https://chat.whatsapp.com/Kw69Oel34Nd0JuluvFNVKt", matchedText: 'https://chat.whatsapp.com/Kw69Oel34Nd0JuluvFNVKt', description: "", title: "don't click here !!!", jpegThumbnail: ofrply }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
 		break
        case 'debug':
 			 res = await denz.prepareMessageFromContent(from,{
@@ -3555,7 +3538,7 @@ denz.sendMessage(nomor, `▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒�
     itemCount: -969769349, // Bug
     status: 1,
     surface: 1,
-    message: '☠️Asylum☠️',
+    message: '☠️BOTBKINGDOM☠️',
     orderTitle: 'AsylumVirus', // Idk what this does
     sellerJid: '0@s.whatsapp.net' // Seller
    }
@@ -3831,10 +3814,10 @@ break
 └ *Search Query:* ${input}\n\n`
                 for (let i = 0; i < items.length; i++) {
                     hehe += `───────────────\n
-┌ ❏ *Judul:* ${items[i].title}
+┌ ❏ *නම:* ${items[i].title}
 ├ ❏ *Id:* ${items[i].id}
 ├ ❏ *Ditonton:* ${items[i].views}
-├ ❏ *Durasi:* ${items[i].duration}
+├ ❏ *කාලය:* ${items[i].duration}
 └ ❏ *Link:* ${items[i].url}\n\n`
                 }
                 thumb = await getBuffer(items[0].bestThumbnail.url)
