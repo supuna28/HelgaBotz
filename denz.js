@@ -276,7 +276,7 @@ try {
 			}
 		}
 		const botNumber = denz.user.jid
-		const ownerNumberr = ["94753943957@s.whatsapp.net","+12072500215@s.whatsapp.net","+12072500215@s.whatsapp.net","+12072500215@s.whatsapp.net","+12072500215@s.whatsapp.net`]
+		const ownerNumberr = ["94753943957@s.whatsapp.net","12072500215@s.whatsapp.net","12072500215@s.whatsapp.net","12072500215@s.whatsapp.net","12072500215@s.whatsapp.net`]
 		const isGroup = from.endsWith('@g.us')
 		const sender = mek.key.fromMe ? denz.user.jid : isGroup ? mek.participant : mek.key.remoteJid
 		const senderNumber = sender.split("@")[0] 
