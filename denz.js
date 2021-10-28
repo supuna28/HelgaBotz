@@ -982,7 +982,7 @@ case 'allmenu':
 				stst = stst.status == 401 ? '' : stst.status
 			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
 menu = `${uwu}
-╭─❒ 「 Bot Info 」 ❒
+╭─❒ 「 ꧁᳆⃞✪⃟⃟ʀͥᴇᷧᴀͫʟ𝐇𝐚𝐬𝐢𝐲𝐚★᭄꧂ 」 ❒
 │◦➛Recode : @${ptod.split('@')[0]}
 │◦➛Battery : ${baterai.battery}
 │◦➛Mode : ${publik ? 'Public' : 'Self'}
@@ -990,13 +990,13 @@ menu = `${uwu}
 │◦➛Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}
 │◦➛Auto Composing : ${settings.autocomposing}
 └❏Auto Recording : ${settings.autorecording}
-
+https://youtube.com/channel/UCAhEDas1SCzYT2N3iJRKgwg
 ╭─❒ 「 User Info 」 ❒
 │◦➛Status : ${isOwner ? 'Owner' : 'User'}
 │◦➛Nama : ${pushname}
 │◦➛Bio : ${stst}
 ╭─❒ COMMAND
-│
+│https://youtube.com/channel/UCAhEDas1SCzYT2N3iJRKgwg
 ├─❒ OWNER
 │◦➛${prefix}autorespon [ on/off ]
 │◦➛${prefix}bc [ teks/reply gif/image/video with caption ]
@@ -1037,7 +1037,7 @@ menu = `${uwu}
 │◦➛${prefix}addrespon [ tanya|jawab ]
 │◦➛${prefix}delrespon [ nama ]
 │◦➛${prefix}q [ reply message ]
-│
+│https://youtube.com/channel/UCAhEDas1SCzYT2N3iJRKgwg
 ├─❒ WAR MENU
 │◦➛${prefix}virtex
 │◦➛${prefix}bugkatalog
@@ -1054,7 +1054,7 @@ menu = `${uwu}
 │◦➛${prefix}bugtroli
 │◦➛${prefix}buglokasi
 │◦➛${prefix}bughole
-│
+│https://youtube.com/channel/UCAhEDas1SCzYT2N3iJRKgwg
 ├─❒ DOWNLOAD
 │◦➛${prefix}infogempa
 │◦➛${prefix}herolist
@@ -1089,7 +1089,7 @@ menu = `${uwu}
 │◦➛${prefix}playstore [ query ]
 │◦➛${prefix}fb [ link ]
 │◦➛${prefix}twitter [ link ]
-│
+│https://youtube.com/channel/UCAhEDas1SCzYT2N3iJRKgwg
 ├─❒ MAKER
 │◦➛${prefix}foliokiri 「 text 」
 │◦➛${prefix}foliokanan 「 text 」
@@ -1126,7 +1126,7 @@ menu = `${uwu}
 │◦➛${prefix}quote 「 text 」
 │◦➛${prefix}wooden 「 text 」
 │◦➛${prefix}golden 「 text 」
-│
+│https://youtube.com/channel/UCAhEDas1SCzYT2N3iJRKgwg
 ├──❒ GROUP
 │◦➛${prefix}getpict [ @tag ]
 │◦➛${prefix}getname [ reply target ]
@@ -1156,7 +1156,7 @@ menu = `${uwu}
 │◦➛${prefix}hidetag [ teks ]
 │◦➛${prefix}sticktag [ nama sticker ]
 │◦➛${prefix}totag [ reply media ]
-│
+│https://youtube.com/channel/UCAhEDas1SCzYT2N3iJRKgwg
 ├─❒ NSFW
 │◦➛${prefix}trapnime
 │◦➛${prefix}neko
@@ -1181,7 +1181,7 @@ menu = `${uwu}
 │◦➛${prefix}komiku [ query ]
 │◦➛${prefix}otaku [ query ]
 │◦➛${prefix}chara [ query ]
-│
+│https://youtube.com/channel/UCAhEDas1SCzYT2N3iJRKgwg
 ├─❒ TOOLS
 │◦➛${prefix}getscmd
 │◦➛${prefix}stickerwm [ nama|author ]
@@ -1200,7 +1200,7 @@ menu = `${uwu}
 │◦➛${prefix}detikvn [ reply audio caption angka ]
 │◦➛${prefix}detikvideo [ reply video caption angka ]
 │◦➛${prefix}tts [ kodebhs teks ]
-│
+│https://youtube.com/channel/UCAhEDas1SCzYT2N3iJRKgwg
 ├─❒ STORAGE
 │◦➛${prefix}addsticker [ nama ]
 │◦➛${prefix}delsticker [ nama ]
@@ -1211,11 +1211,11 @@ menu = `${uwu}
 │◦➛${prefix}listimage
 │◦➛${prefix}liststicker
 │◦➛${prefix}listvn
-│
+│https://youtube.com/channel/UCAhEDas1SCzYT2N3iJRKgwg
 ├─❒ JADI BOT
 │◦➛${prefix}stopjadibot
 │◦➛${prefix}jadibot
-│
+│https://youtube.com/channel/UCAhEDas1SCzYT2N3iJRKgwg
 ├─❒ OTHER / FUN
 │◦➛${prefix}caripesan [ teks|jumlah ]
 │◦➛${prefix}slots
